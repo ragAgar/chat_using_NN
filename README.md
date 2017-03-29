@@ -14,7 +14,6 @@ We learned model with Cornell_Movie-Dialogs_Corpus *1
 3. psql (PostgreSQL) 9.6.1
 
 
-
 ## STEP 1 : Setup
 
 After you installed psql and PostgreSQL.
@@ -22,6 +21,7 @@ After you installed psql and PostgreSQL.
 In terminal.
 
 ```Terminal: in terminal
+$ brew install mpg321
 $ psql -d postgres
 ```
 
