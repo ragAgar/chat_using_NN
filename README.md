@@ -53,5 +53,16 @@ In terminal.
 
 ```Terminal: in terminal
 $ cd Flask-SocketIO-Chat
+$ vi routes.py
+$ vi routes.py
+$ python chat.py
+```
+
+## STEP4
+
+In terminal.
+
+```Terminal: in terminal
+$ cd Flask-SocketIO-Chat
 $ python chat.py
 ```
