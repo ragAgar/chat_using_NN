@@ -14,7 +14,6 @@ In terminal.
 
 ```Terminal: in terminal
 $ psql -d postgres
-
 ```
 
 In PostgreSQL
