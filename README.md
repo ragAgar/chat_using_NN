@@ -56,6 +56,13 @@ In terminal.
 $ sudo pip install -r requirements.txt
 ```
 
+In terminal.
+```command:command
+$ python
+>> import nltk
+>> nltk.download()
+```
+
 
 
 ## STEP 3 : Set Password
