@@ -44,7 +44,7 @@ After you installed pip.
 
 In terminal.
 ```command:command
-$ pip install -r requirements.txt
+$ sudo pip install -r requirements.txt
 ```
 
 ## STEP3
