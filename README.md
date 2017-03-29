@@ -13,17 +13,17 @@ After you installed psql and PostgreSQL.
 In terminal.
 
 ```Terminal: in terminal
-psql -d postgres
+$ psql -d postgres
 
 ```
 
 In PostgreSQL
 ```
-CREATE DATABASE chat;
-\c chat
+postgres=# CREATE DATABASE chat;
+postgres=# \c chat
 
-CREATE TABLE chat(posted_at varchar(40),usertext varchar(100));
-CREATE TABLE login2(email varchar(40),pass varchar(40),status varchar(1));
+chat=# CREATE TABLE chat(posted_at varchar(40),usertext varchar(100));
+chat=# CREATE TABLE login2(email varchar(40),pass varchar(40),status varchar(1));
 ```
 
 After this you can check this!
@@ -45,7 +45,7 @@ After you installed pip.
 
 In terminal.
 ```command:command
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 ## STEP3
@@ -53,9 +53,6 @@ pip install -r requirements.txt
 In terminal.
 
 ```Terminal: in terminal
-cd 
+$ cd Flask-SocketIO-Chat
+$ python chat.py
 ```
-
-## STEP4
-
-## STEP5
