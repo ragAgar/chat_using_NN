@@ -59,8 +59,8 @@ $ sudo pip install -r requirements.txt
 In terminal, download nltk data (book).
 ```command:command
 $ python
->> import nltk
->> nltk.download()
+>>> import nltk
+>>> nltk.download()
 ```
 
 
