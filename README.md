@@ -58,6 +58,13 @@ $ vi events.py # change password & user & database_name
 $ python chat.py
 ```
 
+In routes.py & events.py.
+```python:routes.py
+password="*******"#your_password
+user="*******"#your_user
+database_name = "*******"#your database name
+```
+
 ## STEP 4 : Run Server
 
 In terminal.
