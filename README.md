@@ -3,8 +3,10 @@
 ## About this repositry
 
 We made Chat web app with flask + Postgresql.
-The Chat can return conversation with natural pronaunciation and have Twitter & Uber function using API.
 
+This can return conversation with natural pronaunciation and have Twitter & Uber function using API.
+
+We learned model with Cornell_Movie-Dialogs_Corpus *1
 ## We use
 
 1. mac os X El capitan
@@ -96,4 +98,4 @@ $ python chat.py
 
 
 ## Refference
-[1](http://...)
+[*1 Cornell_Movie-Dialogs_Corpus](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html)
