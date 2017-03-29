@@ -10,7 +10,7 @@ We use
 
 After you made the psql command valid.
 
-```Terminal
+```Terminal: in terminal
 psql -d postgres
 CREATE DATABASE chat;
 \c chat
@@ -19,6 +19,7 @@ CREATE TABLE chat (email varchar(40),pass varchar(40),status varchar(1));
 CREATE TABLE login2 (email varchar(40),pass varchar(40),status varchar(1)); 
 
 ```
+--
 
 
 ## STEP2
