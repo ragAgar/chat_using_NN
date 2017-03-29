@@ -6,7 +6,7 @@
 2. python3.5.1
 3. psql (PostgreSQL) 9.6.1
 
-## STEP1 Setup
+## STEP 1 : Setup
 
 After you installed psql and PostgreSQL.
 
@@ -38,7 +38,7 @@ chat=# \dt
 (2 rows)
 ```
 
-## STEP2
+## STEP 2 : Setup python packages
 
 After you installed pip.
 
@@ -47,7 +47,7 @@ In terminal.
 $ sudo pip install -r requirements.txt
 ```
 
-## STEP3
+## STEP 3 : Set Password
 
 In terminal.
 
@@ -58,7 +58,7 @@ $ vi events.py # change password & user & database_name
 $ python chat.py
 ```
 
-## STEP4
+## STEP 4 : Run Server
 
 In terminal.
 
