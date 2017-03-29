@@ -6,6 +6,7 @@
 2. python3.5.1
 3. psql (PostgreSQL) 9.6.1
 
+
 ## STEP 1 : Setup
 
 After you installed psql and PostgreSQL.
