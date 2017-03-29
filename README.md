@@ -23,7 +23,7 @@ In terminal.
 $ psql -d postgres
 ```
 
-In PostgreSQL
+In PostgreSQL(terminal)
 ```
 postgres=# CREATE DATABASE chat;
 postgres=# \c chat
