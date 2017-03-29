@@ -1,10 +1,16 @@
 # chat_using_NN
 
+## About this repositry
+
+We made Chat web app with flask + Postgresql.
+The Chat can return conversation with natural pronaunciation and have Twitter & Uber function using API.
+
 ## We use
 
 1. mac os X El capitan
 2. python3.5.1
 3. psql (PostgreSQL) 9.6.1
+
 
 
 ## STEP 1 : Setup
@@ -80,3 +86,7 @@ In terminal.
 $ cd Flask-SocketIO-Chat
 $ python chat.py
 ```
+
+
+## Refference
+[1](http://...)
