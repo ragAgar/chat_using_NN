@@ -53,8 +53,8 @@ In terminal.
 
 ```Terminal: in terminal
 $ cd Flask-SocketIO-Chat
-$ vi routes.py
-$ vi routes.py
+$ vi routes.py # change password & user & database_name
+$ vi events.py # change password & user & database_name
 $ python chat.py
 ```
 
