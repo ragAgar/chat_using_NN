@@ -104,7 +104,7 @@ $ python chat.py
 
 
 ## Refference
-[*1 Cornell_Movie-Dialogs_Corpus](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html)
+*1 [Cornell_Movie-Dialogs_Corpus](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html)
 
 *2 https://github.com/miguelgrinberg/Flask-SocketIO-Chat
 
