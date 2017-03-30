@@ -1,4 +1,4 @@
-# chat_using_NN
+# Chat app with Sequence to Sequence model
 
 ## About this repositry
 
