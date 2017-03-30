@@ -105,6 +105,9 @@ $ python chat.py
 
 ## Refference
 [*1 Cornell_Movie-Dialogs_Corpus](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html)
-https://github.com/miguelgrinberg/Flask-SocketIO-Chat
-http://pika-shi.hatenablog.com/entry/20120210/1328866010
-http://tdoc.info/blog/2012/12/05/psycopg2.html
+
+*2 https://github.com/miguelgrinberg/Flask-SocketIO-Chat
+
+*3 http://pika-shi.hatenablog.com/entry/20120210/1328866010
+
+*4 http://tdoc.info/blog/2012/12/05/psycopg2.html
