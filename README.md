@@ -4,9 +4,9 @@
 
 We made Chat web app with flask + Postgresql.
 
-This can return conversation with natural pronaunciation and have Twitter & Uber function using API.
+This can return conversation with natural pronaunciation and have Twitter functions using API.
 
-We learned model with [Cornell_Movie-Dialogs_Corpus *1](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html)
+We learned seq2seq model with [Cornell_Movie-Dialogs_Corpus *1](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html)
 
 [demo(youtube)](https://youtu.be/RngCcviQtxk)
 
@@ -112,8 +112,11 @@ $ python chat.py
 ## Refference
 *1 [Cornell_Movie-Dialogs_Corpus](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html)
 
-*2 https://github.com/miguelgrinberg/Flask-SocketIO-Chat
+*2 [Sequence to Sequence model](https://arxiv.org/abs/1409.3215)
 
-*3 http://pika-shi.hatenablog.com/entry/20120210/1328866010
+*3 https://github.com/miguelgrinberg/Flask-SocketIO-Chat
 
-*4 http://tdoc.info/blog/2012/12/05/psycopg2.html
+*4 http://pika-shi.hatenablog.com/entry/20120210/1328866010
+
+*5 http://tdoc.info/blog/2012/12/05/psycopg2.html
+
