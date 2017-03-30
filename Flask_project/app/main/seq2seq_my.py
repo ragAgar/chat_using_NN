@@ -3,7 +3,6 @@ import chainer
 from chainer import Variable, optimizers, serializers, Chain
 import chainer.functions as F
 import chainer.links as L
-from progressbar import ProgressBar
 import time
 import pickle
 
