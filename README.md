@@ -26,6 +26,9 @@ In terminal.
 ```Terminal: in terminal
 $ brew install mpg321
 $ psql -d postgres
+
+$ git clone https://github.com/ragAgar/chat_using_NN
+$ cd chat_using_NN/Flask_project/
 ```
 
 In PostgreSQL(terminal)
