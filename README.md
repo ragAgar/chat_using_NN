@@ -1,4 +1,4 @@
-# Chat app with Sequence to Sequence model
+# Flask Chat app with Sequence to Sequence model
 
 ## About this repositry
 
