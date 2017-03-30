@@ -88,6 +88,15 @@ user="*******"#your_user
 database_name = "*******"#your database name
 ```
 
+In routes.py
+```
+#twitter developer
+auth = twitter.OAuth(consumer_key="**********************", #consumer_key
+                     consumer_secret="**********************",#consumer_secret_key
+                     token="**********************",#token_key
+                     token_secret="**********************")#token_secret_key
+```
+
 
 
 ## STEP 4 : Run Server
