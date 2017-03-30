@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Flask-SocketIO-Chat</title>
+        {% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <ul class=flashes>
+    {% for message in messages %}
+      <li>{{ message }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
+<script type="text/javascript" src="//code.jquery.com/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+function toindex() {
+        window.location.href = "{{ url_for('main.index') }}";
+    };
+</script>
+    </head>
+    <body>
+        <h1>login with twitter</h1>
+        <form method="POST">
+
+            {{ form.twiid.label }}: {{ form.twiid() }} {% for error in form.twiid.errors %}{{ error }}{% endfor %}<br>
+            {{ form.twipw.label }}: {{ form.twipw() }} {% for error in form.twipw.errors %}{{ error }}{% endfor %}<br>
+            {{ form.submit3() }}
+        </form>
+<br><br>
+        <a href="#" onclick="toindex();">back to Login</a>
+    </body>
+</html>

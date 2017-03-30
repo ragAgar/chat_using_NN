@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Flask-SocketIO-Chat</title>
+        {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <ul class=flashes>
+      {% for message in messages %}
+        <li>{{ message }}</li>
+      {% endfor %}
+      </ul>
+    {% endif %}
+  {% endwith %}
+    </head>
+
+
+    <body>
+        <h1>easy chat</h1>
+        <form method="POST">
+            {{ form.hidden_tag() }}
+            {{ form.email.label }}: {{ form.email() }} {% for error in form.email.errors %}{{ error }}{% endfor %}<br>
+            {{ form.pw.label }}: {{ form.pw() }} {% for error in form.pw.errors %}{{ error }}{% endfor %}<br>
+            {{ form.submit() }}
+        </form>
+            <a href="/signup">sign up</a>
+            <a href="/twitter">Login with Twitter</a>
+    </body>
+</html>
