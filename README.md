@@ -6,7 +6,7 @@ We made Chat web app with flask + Postgresql.
 
 This can return conversation with natural pronaunciation and have Twitter functions using API.
 
-We learned seq2seq model with [Cornell_Movie-Dialogs_Corpus *1](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html)
+We learned seq2seq model with [Cornell_Movie-Dialogs_Corpus *1](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html) & chainer.
 
 [demo(youtube)](https://youtu.be/RngCcviQtxk)
 
