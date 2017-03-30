@@ -8,7 +8,7 @@ This can return conversation with natural pronaunciation and have Twitter functi
 
 We learned seq2seq model with [Cornell_Movie-Dialogs_Corpus *1](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html) & chainer.
 
-[demo(youtube)](https://youtu.be/RngCcviQtxk)
+[Demo(youtube)](https://youtu.be/RngCcviQtxk)
 
 ## We use
 
